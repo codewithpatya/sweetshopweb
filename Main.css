@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.link1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: brown;
+    align-items: center;
+    
+}
+.link1 a{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav img{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+nav .icon1{
+    height: 20px;
+    width: 20px;
+}
+.mainbody{
+    background-image: url(./sweet-shop-logo-png.png);
+    height: 550px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.services h3{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:xx-large;
+    color: blue;
+    text-shadow:black 2px 2px;
+    line-height: 40px;
+}
+.services img{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.images1{
+    margin-right: 500px;
+}
+.seller{
+    margin-left: 140px;
+    margin-right: 500px;
+    
+}
+.seller p{
+    font-size: larger;
+}
+.seller h2{
+    font-size: xx-large;
+}
+.container .row .col img{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+h4{
+    margin-top: 10px ;
+}
+.footer1{
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    color: white;
+    font-weight: bolder;
+}
+.footers{
+    background-color: blue;
+    opacity: 0.4;
+    
+}
+.footers .footer1 .col a{
+    color: white;
+    font-weight: bolder;
+
+}
+.footers .footer1 .row .col hr{
+    color: white;
+}
